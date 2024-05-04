@@ -3,7 +3,7 @@ import Helper from "./helper";
 
 function callApi(method, callUrl, requestPayload) {
   const token = Helper.getItem("TOKEN");
-  const endpoint = "http://localhost:8080";
+  const endpoint = "https://dolphin-app-7tuuk.ondigitalocean.app";
   let headers = {
     "Content-Type": "application/json",
     Accept: "application/json",
