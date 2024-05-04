@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainDivE {
+  background-image: url("../../image/c1.avif");
+  /* background-color: white; */
+  margin: 0;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.homeDiv1 {
+  padding: 50px 100px;
+}
+
+.cardDiv {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .homeDiv1 {
+    padding: 5px 10px;
+    /* border: 3px solid red; */
+  }
+
+  .cardDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.dashDiv {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.btnFetch {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .btnFetch {
+    margin-top: 15px;
+    padding-left: 5px;
+  }
+}
+
+.graphDiv {
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: beige;
+}
+
+
+.budExDiv {
+  display: flex;
+  justify-content: space-between;
+  background: beige;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  padding-top: 10px;
+  border-radius: 10px;
+
+  padding-bottom: 10px;
+}
+
+
+.tb1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: green;
+}
+
+.tb2 {
+  margin-top: 3px;
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
+.doubleBarChartDiv {
+  padding: 20px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twoChartDiv {
+  padding: 8%;
+  height: 1000px;
+}
+
+.spinClass {
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+}

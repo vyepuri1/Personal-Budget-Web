@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainDivE {
+  background-color: white;
+  margin: 0;
+}
+
+.homeDiv22 {
+  padding: 50px 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .homeDiv22 {
+    padding: 5px 10px;
+    /* border: 3px solid red; */
+  }
+}
+
+.tableDiv {
+  margin-top: 10px;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+.deleteBudP {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.bugetView {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: beige;
+  border-radius: 10px;
+  height: 150px;
+  padding: 20px;
+}
+
+.displayFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.p2 {
+  margin-left: 10px;
+}
+
+.mp10 {
+  margin-top: 10px;
+}
+
+.spinClass {
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.budExDiv {
+  display: flex;
+  justify-content: space-between;
+  background: beige;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  padding-top: 10px;
+  border-radius: 10px;
+
+  padding-bottom: 10px;
+}

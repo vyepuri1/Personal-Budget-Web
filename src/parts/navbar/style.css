@@ -1,0 +1,44 @@
+.pBudget {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+}
+
+.avatarDiv {
+  margin-top: 0px;
+  margin-right: 7px;
+  color: brown;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.userName {
+  color: coral;
+  margin-right: 10px;
+}
+
+.ant-menu-overflow-item ant-menu-item ant-menu-item-only-child {
+  color: black;
+}
+
+.logoutIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .logoutP {
+    display: none;
+  }
+
+  .avatarDiv {
+    margin-top: 0px;
+    margin-right: 0px;
+    display: none;
+  }
+
+  .logoutIcon {
+    display: block  
+  }
+}

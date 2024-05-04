@@ -1,0 +1,78 @@
+.spinClass {
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainDivE {
+  background-color: white;
+  margin: 0;
+}
+
+.homeDiv22 {
+  padding: 50px 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .homeDiv22 {
+    padding: 5px 10px;
+  }
+}
+
+.tableDiv {
+  margin-top: 10px;
+}
+
+.editDelete {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.deleteBudP {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.bugetView {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: beige;
+  border-radius: 10px;
+  min-height: 190px;
+  padding: 20px;
+}
+
+.displayFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.p2 {
+  margin-left: 10px;
+}
+
+.mp10 {
+  margin-top: 10px;
+}
+
+.budExDiv {
+  display: flex;
+  justify-content: space-between;
+  background: beige;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  padding-top: 10px;
+  border-radius: 10px;
+
+  padding-bottom: 10px;
+}
